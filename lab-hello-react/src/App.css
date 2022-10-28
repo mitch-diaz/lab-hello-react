@@ -1,0 +1,92 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.logo {
+  width: 30%;
+}
+
+.youWillLearn {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75vw;
+  margin-top: 25px;
+}
+
+.reactFeaturesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.rFbox {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  width: 160px;
+  padding: 30px;
+}
+
+.rFbox img {
+  width: 120px;
+  margin-bottom: 0px;
+}
+
+.rFbox p {
+  margin-top: 0px;
+}
+
+.rFbox h2 {
+  margin-bottom: 6px;
+}
+
+button {
+  padding: 15px 20px 15px 20px;
+  font-size: .5em;
+  font-weight: 800;
+  margin-bottom: 25px;
+  border: 0px;
+  border-radius: 5px;
+}
